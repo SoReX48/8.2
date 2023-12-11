@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Git') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: 'main']], userRemoteConfigs: [[url: 'https://github.com/SoReX48/8.2.git', credentialsId: '88005553535']]])
+            }
+        }
+
+        stage('Test') {
+            steps {
+                script {
+                    sh '/usr/local/go/bin/go test .'
+                }
+            }
+        }
+
+        stage('Build') {
+            steps {
+                script {
+                    sh 'docker build . -t ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER'
+                }
+            }
+        }
+
+        stage('Push') {
+            steps {
+                script {
+                    sh 'docker login ubuntu-bionic:8082 -u admin -p 123456'
+                    sh 'docker push ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER'
+                    sh 'docker logout'
+                }
+            }
+        }
+    }
+}

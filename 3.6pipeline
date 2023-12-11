@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+
+    environment {
+        NEXUS_REPO_URL = 'http://192.168.56.10:8081/repository/raw_hosted/'
+        NEXUS_REPO_CREDS = 'admin:123456'
+    }
+
+    stages {
+        stage('Git') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: 'main']], userRemoteConfigs: [[url: 'https://github.com/SoReX48/8.2.git', credentialsId: '88005553535']]])
+            }
+        }
+
+        stage('Build Binary') {
+            steps {
+                script {
+                    sh '/usr/local/go/bin/go build -o my-binary .'
+                }
+            }
+        }
+
+        stage('Upload to Nexus') {
+            steps {
+                script {
+                    sh "curl -v --user $NEXUS_REPO_CREDS --upload-file my-binary $NEXUS_REPO_URL"
+                    sh 'ls -l'
+                }
+            }
+        }
+    }
+}
