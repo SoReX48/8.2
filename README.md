@@ -10,7 +10,7 @@
 ![Скриншот-2](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/1.2.png)
 
 Скриншот-3 к заданию 1:
-![Скриншот-3](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/1.3.png/
+![Скриншот-3](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/1.3.png)
 
 Скриншот-4 к заданию 1:
 ![Скриншот-4](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/1.4.png)
@@ -113,31 +113,28 @@ https://github.com/SoReX48/8.2/blob/main/2.13pipeline
 ![Скриншот-5](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.5.png)
 
 Скриншот-6 к заданию 3:
-![Скриншот-6](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.6.png)
+![Скриншот-6](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.7.png)
 
 Скриншот-7 к заданию 3:
-![Скриншот-7](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.7.png)
+![Скриншот-7](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.8.png)
 
 Скриншот-8 к заданию 3:
-![Скриншот-8](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.8.png)
+![Скриншот-8](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.9.png)
 
 Скриншот-9 к заданию 3:
-![Скриншот-9](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.9.png)
+![Скриншот-9](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.10.png)
 
 Скриншот-10 к заданию 3:
-![Скриншот-10](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.10.png)
+![Скриншот-10](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.11.png)
 
 Скриншот-11 к заданию 3:
-![Скриншот-11](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.11.png)
+![Скриншот-11](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.12.png)
 
 Скриншот-12 к заданию 3:
-![Скриншот-12](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.12.png)
+![Скриншот-12](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.13.png)
 
 Скриншот-13 к заданию 3:
-![Скриншот-13](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.13.png)
-
-Скриншот-14 к заданию 3:
-![Скриншот-14](https://github.com/SoReX48/8.2/img+code/3.14.png)
+![Скриншот-13](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/3.14.png)
 
 Код 1 к заданию 3:
 https://github.com/SoReX48/8.2/blob/main/3.6pipeline
