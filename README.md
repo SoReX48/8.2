@@ -4,7 +4,7 @@
 
 
 Скриншот-1 к заданию 1:
-![Скриншот-1](https://github.com/SoReX48/8.2/img+code/1.1.png)
+![Скриншот-1](https://github.com/SoReX48/8.2/blob/main/img%2Bcode/1.1.png)
 
 Скриншот-2 к заданию 1:
 ![Скриншот-2](https://github.com/SoReX48/8.2/img+code/1.2.png)
